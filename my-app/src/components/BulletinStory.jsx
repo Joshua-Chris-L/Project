@@ -11,18 +11,17 @@ import { MoveRight } from "lucide-react";
 
 function BulletinStory() {
   return (
-    <div>
-      <div className="flex justify-between ml-30 mr-30 mt-10">
-        <h1 className="text-3xl"> Buletin Story </h1>
-        <div className="flex">
+    <div className="px-4 sm:px-6 lg:px-20 mt-10">
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-3xl font-bold"> Buletin Story </h1>
+        <div className="flex items-center">
           <h3 className="bg-gradient-to-r from-orange-500 to-red-800  text-transparent bg-clip-text">
-            {" "}
-            See all{" "}
+            See all
           </h3>
           <MoveRight />
         </div>
       </div>
-      <div className="flex ml-30 mr-30 mt-10 gap-x-5">
+      <div className="flex grid grid-cols-3 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-8 gap-3">
         <BuletinContent image={BuletinPic1} />
         <BuletinContent image={BuletinPic2} />
         <BuletinContent image={BuletinPic3} />

@@ -2,16 +2,13 @@ import React from "react";
 
 function BuletinContent({ image }) {
   return (
-    <div className="h-30">
+    <div className="">
       <img
         src={image}
         alt="Buletin Image"
-        className="w-35 h-35 rounded-full object-cover"
+        className="w-30 h-30 rounded-full object-cover border-2 border-gray-200 hover:border-orange-500 transition"
       />
-      <span className="block mt-2 text-center text-sm font-semibold">
-        {" "}
-        BBC NEWS{" "}
-      </span>
+      <span className="mt-2 text-sm font-semibold ml-5">BBC NEWS</span>
     </div>
   );
 }

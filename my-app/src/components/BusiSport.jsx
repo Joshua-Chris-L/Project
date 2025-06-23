@@ -8,7 +8,7 @@ import fourthImage from "../assets/BusiSportPic/FourthBild.png";
 
 function BusiSport() {
   return (
-    <div className="mr-30 ml-30 mt-8">
+    <div className="px-4 sm:px-6 lg:px-20 mt-8">
       <div className="flex justify-between mb-5">
         <h1 className="text-3xl font-bold"> Business </h1>
         <div className="flex">
@@ -16,13 +16,12 @@ function BusiSport() {
             <MoveRight />
           </div>
           <h1 className=" text-3xl font-bold bg-gradient-to-r from-orange-500 to-red-800  text-transparent bg-clip-text">
-            {" "}
-            Sport News{" "}
+            Sport News
           </h1>
         </div>
         <MoveRight />
       </div>
-      <div className="flex space-x-20">
+      <div className="flex grid grid-col-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <NewsContent image={firstImage} />
         <NewsContent image={secoundImage} />
         <NewsContent image={thirdImage} />

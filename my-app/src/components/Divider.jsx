@@ -5,26 +5,25 @@ import { Clapperboard } from "lucide-react";
 
 function Divider() {
   return (
-    <div className="h-40 mr-30 ml-30 bg-gray-300 flex items-center justify-center rounded-md">
-      <div className="text-center p-60">
-        <h3> WELCOME TO NEWS BULLETIN </h3>
-        <h1 className="text-2xl">
+    <div className="lg:h-50 bg-gray-300 flex items-center justify-center px-0 sm:px-6 lg:px-20 sm:rounded-md">
+      <div className="text-center md:px-3 lg:px-10 max-w-6xl">
+        <h3 className="text-base md:text-lg lg:text-xl font-semibold">
+          WELCOME TO NEWS BULLETIN
+        </h3>
+        <h1 className="text-2xl md:text-2xl lg:text-3xl font-bold mt-2">
           Craft narratives <SquarePen className="inline" /> that ignite
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-            {" "}
-            inspiration{" "}
+            inspiration
           </span>
           <LampFloor className="inline" />,
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-            {" "}
-            knowledge{" "}
+            knowledge
           </span>
           <BookText className="inline" />, and
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-            {" "}
             entertainment{" "}
           </span>
-          <Clapperboard className="inline mr-2 ml-2" />
+          <Clapperboard className="inline mx-2" />
         </h1>
       </div>
     </div>
